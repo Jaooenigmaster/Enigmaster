@@ -1,0 +1,62 @@
+ /* ... */
+
+ .enigmas {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .enigma {
+    background-color: #FFFFFF; /* Branco */
+    color: #000000; /* Preto */
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .enigma:hover {
+    opacity: 0.8;
+  }
+/* ... */
+
+.enigma-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #000000; /* Preto */
+  color: #FFFFFF; /* Branco */
+}
+
+.image-container {
+  margin-top: 50px; /* Adiciona um espaço de 50px entre o input e a imagem */
+  display: flex;
+  justify-content: center; /* Centraliza a imagem horizontalmente */
+}
+
+.enigma-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+#resposta {
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+}
+
+#confirmar {
+  background-color: #7A288A; /* Roxo */
+  color: #FFFFFF;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#confirmar:hover {
+  background-color: #6A238A; /* Roxo escuro */
+}

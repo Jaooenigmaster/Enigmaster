@@ -1,0 +1,29 @@
+body {
+    background-color: #000000; /* Preto */
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: #FFFFFF; /* Branco */
+  }
+  
+  .buttons {
+    margin-top: 20px;
+  }
+  
+  .button {
+    background-color: #7A288A; /* Roxo */
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #6A238A; /* Roxo escuro */
+  }
+  
+  .button:disabled {
+    background-color: #AAAAAA; /* Cinza */
+    cursor: not-allowed;
+  }
+ 
